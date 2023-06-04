@@ -47,10 +47,10 @@ useEffect(() => {
   }
 
   return (
-<div className="my-20 max-w-lg mx-auto bg-white shadow p-10">
+<div className="my-10 max-w-lg mx-auto bg-white shadow p-10">
     <Header />
 
-    <div className='flex justify-between my-6'>
+    <div className='flex justify-between my-3'>
         
         <Button 
         operador='-'
@@ -72,11 +72,11 @@ useEffect(() => {
     step={STEP}
     value={cantidad}
     />
-    <div className='flex justify-between my-14'>
+    <div className='flex justify-between my-7'>
         
     </div>
 
-    <p className='text-center my-10 text-5xl font-extrabold text-indigo-600'>
+    <p className='text-center my-5 text-5xl font-extrabold text-indigo-600'>
       {formatearDinero(cantidad)}
       </p>
       <h2 className='text-2xl font-extrabold text-gray-500 text-center'>
